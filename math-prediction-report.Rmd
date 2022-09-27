@@ -121,7 +121,7 @@ write.xlsx(predict, "math-score-prediction.xlsx")
 
 ### RMSE
 
-not bad!
+#not bad
 
 ```{r model-eval}
 sqrt(mean((test$math_score - predict)^2))

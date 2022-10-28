@@ -20,7 +20,7 @@ library(janitor)
 StudentsPerformance <- read_xlsx("StudentsPerformance.xlsx")
 
 StudentsPerformance <- StudentsPerformance %>%
-  clean_names()
+  clean_names() #make the variable names more usable
 
 
 #clean the data for final model building

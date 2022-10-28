@@ -29,7 +29,7 @@ clean_data <- read_xlsx("clean-data.xlsx")
 ```
 
 
-## EDA and Visualizations
+## a bit more cleaning
 
 ```{r numeric-descriptives}
 #creating a numeric variable only dataset
